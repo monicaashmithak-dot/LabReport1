@@ -1,7 +1,7 @@
 const express = require("express");
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Route 1: Welcome page
 app.get("/", (request, response) => {
@@ -28,7 +28,10 @@ app.use((request, response) => {
     response.status(404).send("404 - Page Not Found");
 });
 
-// Start the server
-app.listen(PORT, () => {
-    console.log(`Express server running at http://localhost:${PORT}`);
-});
+if (require.main === module) {
+    app.listen(PORT, () => {
+        console.log(`Express server running at http://localhost:${PORT}`);
+    });
+}
+
+module.exports = app;
