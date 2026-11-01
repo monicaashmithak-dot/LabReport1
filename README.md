@@ -2,22 +2,22 @@
 
 ## 1. Student Details
 
-- **Name:** Avula Druvathi
-- **Registration Number:** 252U1R9014
+- **Name:** K. Monica Ashmitha
+- **Registration Number:** 252U1R9061
 - **Section:** GEN AI-2A
 - **Course:** Backend Development Fundamentals
 - **Lab Number:** 01
 
 ## 2. Live Link
 
-**Deployment URL:** http://node-express-lab1.vercel.app/
+**Deployment URL:** 
 
 
 Update this section with the public deployment URL after successfully deploying the server.
 
 ## 3. GitHub Repository
 
-**GitHub Link:** https://github.com/avuladruvathi-max/node_express_lab1
+**GitHub Link:** 
 ## 4. Objective
 
 To set up a Node.js project, create a basic HTTP server using the built-in `http` module, and build an Express server with multiple routes and appropriate HTTP status codes.
@@ -34,7 +34,7 @@ To set up a Node.js project, create a basic HTTP server using the built-in `http
 ## 6. Project Structure
 
 ```text
-Druvathi_Node_Express_Lab1/
+Monica_Node_Express_Lab1/
 ├── Screenshots/
 │   ├── home.png
 │   ├── about.png
